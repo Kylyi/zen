@@ -7,3 +7,5 @@ export default defineEventHandler(async () => {
 
   return users
 })
+
+const x: IItem = {}
