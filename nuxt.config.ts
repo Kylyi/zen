@@ -1,10 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: [
-    './libs/User',
-    './libs/Core',
-    './libs/Utilities',
+    './layers/User',
+    './layers/Core',
+    './layers/Zenstack',
+    './layers/Utilities',
   ],
+
   modules: [
     '@unocss/nuxt',
     '@nuxt/eslint',

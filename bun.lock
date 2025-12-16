@@ -12,7 +12,7 @@
         "axios": "1.13.2",
         "dayjs": "1.11.19",
         "fuse.js": "7.1.0",
-        "lodash-es": "4.17.21",
+        "lodash-es": "^4.17.21",
         "nuxt": "4.2.2",
         "pathe": "2.0.3",
         "pg": "8.16.3",
@@ -26,6 +26,7 @@
         "@nuxt/image": "2.0.0",
         "@nuxt/scripts": "0.13.1",
         "@nuxtjs/i18n": "9.5.5",
+        "@types/lodash-es": "^4.17.12",
         "@types/pg": "8.16.0",
         "@unocss/eslint-plugin": "66.5.4",
         "@unocss/nuxt": "66.5.10",
@@ -646,6 +647,10 @@
     "@types/hast": ["@types/hast@3.0.4", "", { "dependencies": { "@types/unist": "*" } }, "sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ=="],
 
     "@types/json-schema": ["@types/json-schema@7.0.15", "", {}, "sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA=="],
+
+    "@types/lodash": ["@types/lodash@4.17.21", "", {}, "sha512-FOvQ0YPD5NOfPgMzJihoT+Za5pdkDJWcbpuj1DjaKZIr/gxodQjY/uWEFlTNqW2ugXHUiL8lRQgw63dzKHZdeQ=="],
+
+    "@types/lodash-es": ["@types/lodash-es@4.17.12", "", { "dependencies": { "@types/lodash": "*" } }, "sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ=="],
 
     "@types/mdast": ["@types/mdast@4.0.4", "", { "dependencies": { "@types/unist": "*" } }, "sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA=="],
 

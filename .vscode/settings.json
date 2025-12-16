@@ -8,5 +8,9 @@
   "tailwindCSS.classAttributes": ["class", "ui"],
   "tailwindCSS.experimental.classRegex": [
     ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  "i18n-ally.localesPaths": [
+    "layers/Utilities/i18n",
+    "layers/Utilities/shared/i18n"
   ]
 }

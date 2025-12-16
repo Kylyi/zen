@@ -1,3 +1,3 @@
-[submodule "libs/Utilities"]
-	path = libs/Utilities
+[submodule "layers/Utilities"]
+	path = layers/Utilities
 	url = git@github.com:gentlsro/utilities.git
