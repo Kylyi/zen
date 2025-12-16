@@ -1,75 +1,23 @@
-# Nuxt Minimal Starter
+# Install deps
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
+```
 bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+# Get submodule
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+git submodule update --init --recursive --remote
 ```
 
-## Production
+## IMPORTANT
 
-Build the application for production:
+Use `v2` branch in the `Utilities` submodule
 
-```bash
-# npm
-npm run build
+# Run typecheck
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+```
+bun run typecheck
 ```
 
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+You should now see false-positive issues.

@@ -49,4 +49,5 @@ export default nuxt(
     'unicorn/consistent-function-scoping': 'off',
     'perfectionist/sort-objects': 'off',
     'ts/no-unsafe-function-type': 'off',
-  })
+  },
+  )
