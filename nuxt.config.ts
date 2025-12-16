@@ -1,9 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: [
-    './libs/User',
-    './libs/Core',
-    './libs/Zenstack',
     './libs/Utilities',
   ],
 
