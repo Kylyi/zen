@@ -1,11 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  extends: [
-    './layers/User',
-    './layers/Core',
-    './layers/Zenstack',
-    './layers/Utilities',
-  ],
+  // extends: [
+  //   './layers/User',
+  //   './layers/Core',
+  //   './layers/Zenstack',
+  //   './layers/Utilities',
+  // ],
 
   modules: [
     '@unocss/nuxt',
@@ -19,6 +19,14 @@ export default defineNuxtConfig({
   ssr: false,
 
   compatibilityDate: '2025-07-15',
+
+  nitro: {
+    typescript: {
+      tsConfig: {
+        include: ['../layers/*/shared/**/*'],
+      },
+    },
+  },
 
   eslint: {
     config: {

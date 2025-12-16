@@ -1,5 +1,7 @@
 <script setup lang="ts">
-
+const x: IItem = {
+  id: 1,
+}
 </script>
 
 <template>
