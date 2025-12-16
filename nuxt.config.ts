@@ -20,14 +20,6 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2025-07-15',
 
-  nitro: {
-    typescript: {
-      tsConfig: {
-        // include: ['../layers/*/shared/**/*'],
-      },
-    },
-  },
-
   eslint: {
     config: {
       standalone: false,
