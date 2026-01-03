@@ -10,7 +10,7 @@
     ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
   ],
   "i18n-ally.localesPaths": [
-    "layers/Utilities/i18n",
-    "layers/Utilities/shared/i18n"
+    "libs/Utilities/i18n",
+    "libs/Utilities/shared/i18n"
   ]
 }

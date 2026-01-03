@@ -8,7 +8,7 @@
 import { type SchemaDef, ExpressionUtils } from "@zenstackhq/orm/schema";
 export class SchemaType implements SchemaDef {
     provider = {
-        type: "sqlite"
+        type: "postgresql"
     } as const;
     models = {
         User: {
